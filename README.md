@@ -1,0 +1,7 @@
+# What is a Number, That a Large Language Model May Know It?
+
+This is an anonymous code repository for the paper: What is a Number, That a Large Language Model May Know It?. 
+
+Description of paper: Numbers are a basic part of how humans represent and describe the world around them. As a consequence, learning effective representations of numbers is critical for the success of large language models as they become integrated in everyday decisions. However, these models face a challenge: depending on context, the same set of digit tokens, e.g., 911, can be treated as a number or as a string. What kind of representations arise from this duality, and what are its downstream implications? Using a similarity-based prompting technique from cognitive science, we show that LLMs learn representational spaces that blend string-like and numerical representations. In particular, we show that elicited similarity judgments from these models over integer pairs can be adequately explained as a combination of Levenshtein edit distance and numerical log-linear distance, suggesting an entangled representation. In a series of experiments we show how this entanglement is reflected in the latent embeddings, how it can be reduced but not entirely eliminated by context, and how it can propagate into a realistic decision scenario. These results shed light on an intrinsic representational tension in transformer models that must learn what a number is from text input.
+
+
